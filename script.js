@@ -53,4 +53,11 @@ function limpar() {
     i.style.background = 'white'
   }
 }
+
+function criar() {
+  let c2 = document.querySelector('board-size')
+  let n = c2.value
+}
 botao.addEventListener('click', limpar)
+let btn = document.querySelector('#generate-board')
+btn.addEventListener('click', criar)
