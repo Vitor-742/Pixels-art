@@ -39,7 +39,6 @@ function colorir(e) {
     e.target.style.background = 'red'
   }
   /* console.log(atpin) */
-  /* e.target.style.background = 'red' */
 }
 
 let pix2 = document.querySelectorAll('.pixel')
