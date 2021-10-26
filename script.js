@@ -38,7 +38,6 @@ function colorir(e) {
   } else if (atpin == document.querySelector('#red')) {
     e.target.style.background = 'red'
   }
-  /* console.log(atpin) */
 }
 
 let pix2 = document.querySelectorAll('.pixel')
